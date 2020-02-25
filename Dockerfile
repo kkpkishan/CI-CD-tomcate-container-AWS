@@ -1,5 +1,5 @@
 FROM centos:7
-MAINTAINER Kishan Khatrani <support17@electromech.info>
+MAINTAINER Kishan Khatrani <kkpkishan@gmail.com>
 RUN yum install -y java-1.8.0-openjdk-devel
 RUN yum install wget git -y
 RUN cd /usr/local/src && wget http://www-us.apache.org/dist/maven/maven-3/3.5.4/binaries/apache-maven-3.5.4-bin.tar.gz
